@@ -306,10 +306,9 @@ kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/cont
 # Access the application below DNS name:
 
 
-                       ..\httpa409fb495a37944c5b1f4e1d28699697-1788859896.us-east-1.elb.amazonaws.comblood-donation-facts.html.html
+  ..\httpa409fb495a37944c5b1f4e1d28699697-1788859896.us-east-1.elb.amazonaws.comblood-donation-facts.html.html
 
-
-                       <img width="1919" height="934" alt="Screenshot 2026-04-11 171930" src="https://github.com/user-attachments/assets/6d2052fc-d2a7-40cc-933e-fb33cad93b8d" />
+<img width="1919" height="934" alt="Screenshot 2026-04-11 171930" src="https://github.com/user-attachments/assets/6d2052fc-d2a7-40cc-933e-fb33cad93b8d" />
 
 
 
@@ -329,8 +328,10 @@ kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/cont
 2.	When execute the Yaml files get some errors, troubleshoot all the erorrs.
    
 Ex: when access the application through DNS name make sure labels should be correct in all yaml files. 
-Means i) Deployment label and app-service label should be same label name.
-                          ii) Stateful set label and db-service label name should be same label name.
+
+i) Deployment label and app-service label should be same label name.
+         
+ii) Stateful set label and db-service label name should be same label name.
 
 
   
