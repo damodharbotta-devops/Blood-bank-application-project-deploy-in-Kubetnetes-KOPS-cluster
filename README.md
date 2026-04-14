@@ -335,6 +335,10 @@ i) Deployment label and app-service label should be same label name.
 ii) Stateful set label and db-service label name should be same label name.
 
 
+# Go through below link to download the document for entire deployment process.
+
+https://github.com/damodharbotta-devops/Blood-bank-application-project-deploy-in-Kubetnetes-KOPS-cluster/blob/master/Blood-bank-application-project-deploy-in-Kubetnetes-KOPS-cluster.docx
+
 
           
 
