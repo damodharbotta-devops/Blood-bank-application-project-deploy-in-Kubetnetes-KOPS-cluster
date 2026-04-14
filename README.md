@@ -188,17 +188,20 @@ install required plugins and add docker Hub credentials in Jenkins CI server.
 <img width="806" height="790" alt="Screenshot 2026-04-11 175106" src="https://github.com/user-attachments/assets/ac2555cc-7d69-476b-9028-1d66c7218e28" />
 <img width="1362" height="408" alt="Screenshot 2026-04-11 175144" src="https://github.com/user-attachments/assets/f2544f01-7943-425c-b674-163b43ff4853" />
 
-# Application Deploy in Kubernetes
-**As of now what we did:**
+   # Application Deploy in Kubernetes
+
+ **As of now what we did:**
 
 •	Get the source code from GitHub and create CI/CD pipeline in Jenkins to automate the deployment process and create Docker images and tagged & push the images into docker hub registry. Then run the application in containers successfully. All this process we automate in Jenkins.
 •	Now deploy the same application in Kubernetes why means high availability and no down time, update the versions & Rollback to any versions.
 **Install Kubectl and Kops**:
+
 Kubectl:
 curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
 chmod +x kubectl
 mv kubectl /usr/local/bin
 kubectl version
+
 Kops: 
 curl -Lo kops https://github.com/kubernetes/kops/releases/download/$(curl -s https://api.github.com/repos/kubernetes/kops/releases/latest | grep tag_name | cut -d '"' -f 4)/kops-linux-amd64
  chmod +x kops
