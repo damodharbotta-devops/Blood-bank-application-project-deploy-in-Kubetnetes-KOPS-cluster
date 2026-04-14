@@ -70,8 +70,7 @@ After install Sonar image in server and access the sonar Qube dash board server 
 <img width="1859" height="427" alt="Screenshot 2026-04-11 123209" src="https://github.com/user-attachments/assets/0fef3e68-3c00-4f2c-b3ac-0dd5cc335f5b" />
 
            Jenkins -> Manage Jenkins -> system -> SonarQube installations
-
-           <img width="1873" height="946" alt="Screenshot 2026-04-11 124413" src="https://github.com/user-attachments/assets/8f22085a-10bc-43f0-8b4e-193adc80b9b1" />
+<img width="1873" height="946" alt="Screenshot 2026-04-11 124413" src="https://github.com/user-attachments/assets/4ffd6066-17dd-4b5f-af32-3ab8b9989323" />           
 
 <img width="1893" height="714" alt="Screenshot 2026-04-11 123956" src="https://github.com/user-attachments/assets/bbcc4de4-19b6-46b9-8bce-d12a3209578d" />
 
